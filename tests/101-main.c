@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "sort.h"
+#include "../sort.h"
 
 /**
  * create_listint - Creates a doubly linked list from an array of integers
@@ -49,7 +49,7 @@ int main(void)
 		return (1);
 	print_list(list);
 	printf("\n");
-	insertion_sort_list(&list);
+	cocktail_sort_list(&list);
 	printf("\n");
 	print_list(list);
 	return (0);
